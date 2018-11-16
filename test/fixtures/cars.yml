@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  queue_id: 1
+  user: one
+  available_seats: 1
+  car_number: MyString
+  status: 1
+
+two:
+  queue_id: 1
+  user: two
+  available_seats: 1
+  car_number: MyString
+  status: 1
