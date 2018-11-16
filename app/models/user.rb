@@ -5,5 +5,6 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :validatable
   has_many :bookings, dependent: :destroy
   has_many :cars, dependent: :destroy
-  enum role: [:admin, :driver, :customer]       
+  enum role: {admin: 1, driver: 2, customer: 3}
+  validates_presence_of :role  
 end
